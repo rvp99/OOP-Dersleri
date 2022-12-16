@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-If-Else", "If-Else\02-If
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-VeriTipler", "VeriTipler\01-VeriTipler.csproj", "{11AEC79E-22A5-415E-B3FA-47EA31F6AB97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Switch-Case", "Switch-Case\03-Switch-Case.csproj", "{0C921970-8150-4369-B362-AE58BC3DE321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11AEC79E-22A5-415E-B3FA-47EA31F6AB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AEC79E-22A5-415E-B3FA-47EA31F6AB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AEC79E-22A5-415E-B3FA-47EA31F6AB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C921970-8150-4369-B362-AE58BC3DE321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C921970-8150-4369-B362-AE58BC3DE321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C921970-8150-4369-B362-AE58BC3DE321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C921970-8150-4369-B362-AE58BC3DE321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
