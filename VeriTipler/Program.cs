@@ -16,7 +16,7 @@ namespace VeriTipler
             // double = Ondalıklı sayı tutan değişken tipi.
             // string = Metinsel değer tutan değişken tipi.
             // char = Sadece tek harf tutabilen değişken tipi.
-            // bool = True yada False değer tutan değişken tipi.
+            // bool = True yada False değer tutan değişken tipi. (Boolen)
             // Bir değişken tanımlarken ilk olarak değişkenin tipini sonrada değişken ismini veririz. Aşağıda değişken tanımlama örneklerini görebilirsiniz.
 
             int x = 12;

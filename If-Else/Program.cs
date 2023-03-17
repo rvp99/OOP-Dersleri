@@ -3,16 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace If_Else
 {
     internal class Program
     {
+        
+
         static void Main(string[] args)
         {
+            int x = 26;
+
+            if (x == 25)
+            {
+                Console.WriteLine("x değeri 25");
+            }
+            
+            Console.ReadLine();
+
 
 
             #region Soru - 1
@@ -90,33 +103,33 @@ namespace If_Else
 
             // if - else koşullu yapım.
 
-            int sinav1, sinav2, sinav3, sonuc;
+            //int sinav1, sinav2, sinav3, sonuc;
 
-            Console.Write("Lütfen ilk sınavı giriniz.");
-            sinav1 = Convert.ToInt16(Console.ReadLine());
-            Console.Write("Lütfen ikinci sınavı giriniz.");
-            sinav2 = Convert.ToInt16(Console.ReadLine());
-            Console.Write("Lütfen üçüncü sınavı giriniz.");
-            sinav3 = Convert.ToInt16(Console.ReadLine());
+            //Console.Write("Lütfen ilk sınavı giriniz.");
+            //sinav1 = Convert.ToInt16(Console.ReadLine());
+            //Console.Write("Lütfen ikinci sınavı giriniz.");
+            //sinav2 = Convert.ToInt16(Console.ReadLine());
+            //Console.Write("Lütfen üçüncü sınavı giriniz.");
+            //sinav3 = Convert.ToInt16(Console.ReadLine());
 
-            // sonuç için üç değişkeni toplıycam ve 3 bölücem.
+            //// sonuç için üç değişkeni toplıycam ve 3 bölücem.
 
-            sonuc = (sinav1 + sinav2 + sinav3) / 3;
+            //sonuc = (sinav1 + sinav2 + sinav3) / 3;
 
-            if (sonuc > 0 && sonuc < 50)
-            {
-                Console.WriteLine("Kaldınız.");
-            }
-            else if(sonuc >=50 && sonuc <=100)
-            {
-                Console.WriteLine("Geçtiniz.");
-            }
-            else
-            {
-                Console.WriteLine("Geçersiz Not.");
-            }
+            //if (sonuc > 0 && sonuc < 50)
+            //{
+            //    Console.WriteLine("Kaldınız.");
+            //}
+            //else if(sonuc >=50 && sonuc <=100)
+            //{
+            //    Console.WriteLine("Geçtiniz.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Geçersiz Not.");
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             #endregion
 
