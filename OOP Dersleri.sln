@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-VeriTipler", "VeriTipler
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Switch-Case", "Switch-Case\03-Switch-Case.csproj", "{0C921970-8150-4369-B362-AE58BC3DE321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{105C0EFB-EF0C-45D4-86E1-A460928268CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Donguler", "Donguler\04-Donguler.csproj", "{105C0EFB-EF0C-45D4-86E1-A460928268CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Diziler", "Diziler\05-Diziler.csproj", "{AC60CED3-3966-4CEC-9457-AC758EC546FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{105C0EFB-EF0C-45D4-86E1-A460928268CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{105C0EFB-EF0C-45D4-86E1-A460928268CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{105C0EFB-EF0C-45D4-86E1-A460928268CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC60CED3-3966-4CEC-9457-AC758EC546FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC60CED3-3966-4CEC-9457-AC758EC546FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC60CED3-3966-4CEC-9457-AC758EC546FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC60CED3-3966-4CEC-9457-AC758EC546FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

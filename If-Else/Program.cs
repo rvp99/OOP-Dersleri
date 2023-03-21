@@ -17,14 +17,14 @@ namespace If_Else
 
         static void Main(string[] args)
         {
-            int x = 26;
+            //int x = 26;
 
-            if (x == 25)
-            {
-                Console.WriteLine("x değeri 25");
-            }
+            //if (x == 26)
+            //{
+            //    Console.WriteLine("x değeri 26");
+            //}
             
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
@@ -35,26 +35,28 @@ namespace If_Else
             */
 
 
-            //int sayi = 20;
+            int sayi = 20;
 
-            //if (sayi >= 0 && sayi <= 100) // Sayi o ve büyükse ve 100 ve küçükse
-            //{
-            //    Console.WriteLine("Sayı 0 ile 100 aralığındadır.");
-            //}
-            //else if (sayi >= 100 && sayi <= 200)
-            //{
-            //    Console.WriteLine("Sayı 100 ile 200 aralığındadır.");
-            //}
-            //else if (sayi < 0 || sayi > 200)
-            //{
-            //    Console.WriteLine("Sayı 0’dan küçük veya 200’den büyüktür.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Girilen sayı yanlıştır");
-            //}
+            // Bu sayı değer olarak 0 dan 100 e kadar 0 ve 100 dahil değer alabilir
 
-            //Console.ReadLine();
+            if (sayi >= 0 && sayi <= 100) // Sayi o ve büyükse ve 100 ve küçükse
+            {
+                Console.WriteLine("Sayı 0 ile 100 aralığındadır.");
+            }
+            else if (sayi >= 100 && sayi <= 200)
+            {
+                Console.WriteLine("Sayı 100 ile 200 aralığındadır.");
+            }
+            else if (sayi < 0 || sayi > 200)
+            {
+                Console.WriteLine("Sayı 0’dan küçük veya 200’den büyüktür.");
+            }
+            else
+            {
+                Console.WriteLine("Girilen sayı yanlıştır");
+            }
+
+            Console.ReadLine();
 
             #endregion
 

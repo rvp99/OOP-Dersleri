@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,16 +17,56 @@ namespace Donguler
             // bir sayı 2 ye bölündükten sonra kalan 0 ise sayı çifttir.
 
 
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.WriteLine("Merhaba");
+            //}
 
-            for (int i = 0;i<=10;i+=2)
+            //for (int i = 0; i < 10; i+=2)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Diziler - Array
+
+            string isim = "Serkan";
+            string kursiyer1 = "ali";
+            string kursiyer2 = "mehmet";
+
+            string[] gunler = {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar","Hafta Sonu","Bayram","Tatil" };
+
+            //Console.WriteLine(gunler[1]);
+
+            foreach (var gun in gunler)
             {
-                if (i % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
+                Console.WriteLine(gun);
             }
 
+            Console.WriteLine("**************");
+
+            //for (int i = 0; i <= 6; i++)
+            //{
+            //    Console.WriteLine(gunler[i]);
+            //}
+
+            for (int i = 0; i < gunler.Length; i++)
+            {
+                Console.WriteLine(gunler[i]);
+            }
+
+
+            //for (int i = 0;i<=10;i+=2)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //Console.WriteLine("****************");
+
             Console.ReadLine();
+
         }
     }
 }

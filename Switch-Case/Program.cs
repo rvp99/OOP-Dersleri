@@ -30,6 +30,8 @@ namespace Switch_Case
 
 
 
+
+
             //int sayi1, sayi2, toplam;
             //string islem = "";
             //Console.Write("Birinci sayıyı giriniz.");
