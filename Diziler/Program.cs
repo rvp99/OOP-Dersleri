@@ -8,7 +8,7 @@ namespace Diziler
         {
             #region Sınırlılıklar
             // Diziler oluşturulurken eleman sayısını vermek zorundayız.
-            // Dizilerde eleman sayısı başta belirlediğimizden, bellekte o kadar eleman olmasada, belilenen eleman sayısı kadar yer ayrılır ve performans kayıplarına yol açabilir.
+            // Dizilerde eleman sayısı başta belirlediğimizden, bellekte o kadar eleman olmasada, belirlenen eleman sayısı kadar yer ayrılır ve performans kayıplarına yol açabilir.
             
 
             #endregion
