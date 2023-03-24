@@ -30,10 +30,10 @@ namespace Donguler
             //Diziler - Array
 
             string isim = "Serkan";
-            string kursiyer1 = "ali";
-            string kursiyer2 = "mehmet";
+            string kursiyer1 = "Ali";
+            string kursiyer2 = "Mehmet";
 
-            string[] gunler = {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar","Hafta Sonu","Bayram","Tatil" };
+            string[] gunler = {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar" };
 
             //Console.WriteLine(gunler[1]);
 
@@ -66,6 +66,20 @@ namespace Donguler
             //Console.WriteLine("****************");
 
             Console.ReadLine();
+
+
+            // ********* While ve Do-While döngüsü
+
+
+            //while (a = 10)
+            //{
+            //    // Yapılacak işler
+            //}
+
+            // 
+            // Do - While döngüsü
+
+
 
         }
     }

@@ -7,21 +7,15 @@ namespace _00_Denemeler
     {
         static void Main(string[] args)
         {
-            List<Sinif> Liste = new List<Sinif>
+            for (int i=0;i<10;i++)
             {
-                new Sinif(){No = 12,Name = "Serkan",LastName = "Alsabeyit"},
-                new Sinif(){No = 23,Name = "Derya",LastName = "Alsabeyit"}
-            };
+                Console.WriteLine(i);
+            }
 
-            Console.WriteLine(Liste[0].No);
-        }
-
-        public class Sinif
-        {
-            public int No { get; set; }
-            public string Name { get; set; }
-            public string LastName { get; set; }
-
+            Console.WriteLine("Döngümüz Bitti.");
+            Console.WriteLine("Döngümüz Bitti.");
+            Console.WriteLine("Döngümüz Bitti.");
+            Console.WriteLine("Döngümüz Bitti.");
         }
     }
 }

@@ -6,10 +6,64 @@ namespace Diziler
     {
         static void Main(string[] args)
         {
+            //string gun1 = "Pazartesi";
+            //string gun2 = "Salı";
+            //string gun3 = "Çarşamba";
+            //string gun4 = "Perşembe";
+            //string gun5 = "Cuma";
+            //string gun6 = "Cumartesi";
+            //string gun7 = "Pazar";
+
+            //string bugün = "Pazar";
+
+            //if (bugün == "Cumartesi" || bugün== "Pazar")
+            //{
+            //    Console.WriteLine("Bugün Hafta Sonu");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Hafta İçi");
+            //}
+
+            //Console.WriteLine("**************");
+
+            //string[] gunler; // Kullanışsız tanımlama;
+
+            string[] gunler = new string[7]; // array - diziler
+            gunler[0] = "pazartesi";
+            gunler[1] = "salı";
+            gunler[2] = "çarşamba";
+            gunler[3] = "perşembe";
+            gunler[4] = "cuma";
+            gunler[5] = "cumartesi";
+            gunler[6] = "pazar";
+
+            //string[] gunler = new[] {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma"};
+
+            //Console.WriteLine(gunler.Length);
+
+            //for (int i = 0; i < gunler.Length; i++)
+            //{
+            //    Console.WriteLine(gunler[i]);
+            //}
+
+            foreach (var gun in gunler)
+            {
+                if (gun == "Cumartesi" || gun=="Pazar")
+                {
+                    Console.WriteLine(gun+ " " + "Hafta Sonu");
+                }
+                else
+                {
+                    Console.WriteLine(gun + " " + "Hafta İçi");
+                }
+            }
+
+
             #region Sınırlılıklar
             // Diziler oluşturulurken eleman sayısını vermek zorundayız.
             // Dizilerde eleman sayısı başta belirlediğimizden, bellekte o kadar eleman olmasada, belirlenen eleman sayısı kadar yer ayrılır ve performans kayıplarına yol açabilir.
-            
+
 
             #endregion
 
@@ -129,18 +183,18 @@ namespace Diziler
 
             #region Sort
 
-            for (int i = 0; i < Sayilar.Length; i++)
-            {
-                Console.WriteLine(Sayilar[i]);
-            }
+            //for (int i = 0; i < Sayilar.Length; i++)
+            //{
+            //    Console.WriteLine(Sayilar[i]);
+            //}
 
-            Console.WriteLine("****************");
+            //Console.WriteLine("****************");
 
-            Array.Sort(Sayilar);
-            for (int i = 0; i < Sayilar.Length; i++)
-            {
-                Console.WriteLine(Sayilar[i]);
-            }
+            //Array.Sort(Sayilar);
+            //for (int i = 0; i < Sayilar.Length; i++)
+            //{
+            //    Console.WriteLine(Sayilar[i]);
+            //}
 
             #endregion
 
