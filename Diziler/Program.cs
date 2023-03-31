@@ -29,14 +29,14 @@ namespace Diziler
 
             //string[] gunler; // Kullanışsız tanımlama;
 
-            string[] gunler = new string[7]; // array - diziler
-            gunler[0] = "pazartesi";
-            gunler[1] = "salı";
-            gunler[2] = "çarşamba";
-            gunler[3] = "perşembe";
-            gunler[4] = "cuma";
-            gunler[5] = "cumartesi";
-            gunler[6] = "pazar";
+            //string[] gunler = new string[7]; // array - diziler
+            //gunler[0] = "pazartesi";
+            //gunler[1] = "salı";
+            //gunler[2] = "çarşamba";
+            //gunler[3] = "perşembe";
+            //gunler[4] = "cuma";
+            //gunler[5] = "cumartesi";
+            //gunler[6] = "pazar";
 
             //string[] gunler = new[] {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma"};
 
@@ -47,17 +47,46 @@ namespace Diziler
             //    Console.WriteLine(gunler[i]);
             //}
 
-            foreach (var gun in gunler)
+            
+
+            string[] aylar = new string[12];
+            aylar[0] = "Ocak";
+            aylar[1] = "Şubat";
+            aylar[2] = "Mart";
+            aylar[3] = "Nisan";
+            aylar[4] = "Mayıs";
+            aylar[5] = "Haziran";
+            aylar[6] = "Temmuz";
+            aylar[7] = "Ağustos";
+            aylar[8] = "Eylül";
+            aylar[9] = "Ekim";
+            aylar[10] = "Kasım";
+            aylar[11] = "Aralık";
+
+            foreach (var ay in aylar)
             {
-                if (gun == "Cumartesi" || gun=="Pazar")
+                if (ay == "Ocak" || ay=="Şubat" || ay=="Mart")
                 {
-                    Console.WriteLine(gun+ " " + "Hafta Sonu");
+                    Console.WriteLine("Mevsim Kış.");
                 }
-                else
+                else if (ay=="Nisan" || ay=="Mayıs" || ay=="Haziran")
                 {
-                    Console.WriteLine(gun + " " + "Hafta İçi");
+                    Console.WriteLine("Mevsim İlkbahar");
                 }
             }
+
+
+            //foreach (var gun in gunler)
+            //{
+            //    if (gun == "Cumartesi" || gun=="Pazar")
+            //    {
+            //        Console.WriteLine(gun+ " " + "Hafta Sonu");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(gun + " " + "Hafta İçi");
+            //    }
+            //}
 
 
             #region Sınırlılıklar

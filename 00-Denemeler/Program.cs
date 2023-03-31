@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace _00_Denemeler
 {
@@ -7,15 +8,23 @@ namespace _00_Denemeler
     {
         static void Main(string[] args)
         {
-            for (int i=0;i<10;i++)
-            {
-                Console.WriteLine(i);
-            }
+            Product product1 = new Product() { Id = 4, Name = "Kitap" };
+            
+            ProductManager productManager = new ProductManager();
+            
+            productManager.Add(product1);
 
-            Console.WriteLine("Döngümüz Bitti.");
-            Console.WriteLine("Döngümüz Bitti.");
-            Console.WriteLine("Döngümüz Bitti.");
-            Console.WriteLine("Döngümüz Bitti.");
+            //foreach (var product in productManager.GetAll())
+            //{
+            //    Console.WriteLine(product.Id);
+            //}
+
+            Console.WriteLine("***************");
+            productManager.GetById(5);
+
+          
+            
+
         }
     }
 }
