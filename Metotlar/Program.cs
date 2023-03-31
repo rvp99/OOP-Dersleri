@@ -18,7 +18,7 @@ namespace Metotlar
 
         //static void Topla()
         //{
-        //    Console.WriteLine(2+3);
+        //    Console.WriteLine(2 + 3);
         //}
 
         #endregion
@@ -42,7 +42,7 @@ namespace Metotlar
 
         //static void Topla(int a, int b)
         //{
-        //    Console.WriteLine("Girilen sayıların toplamı: " + (a+b));
+        //    Console.WriteLine("Girilen sayıların toplamı: " + (a + b));
         //}
 
         //static void Name(string name)
@@ -93,11 +93,55 @@ namespace Metotlar
         //    Console.WriteLine("Karesi 25'den küçüktür.");
         //}
 
-#endregion
+        #endregion
 
-static void Main(string[] args)
+        static void Main(string[] args)
         {
-            
+            Console.Write("Lütfen bir sayı giriniz.");
+            int sayi = int.Parse(Console.ReadLine());
+
+            int sonuc = Kare(sayi);
+
+            if (sonuc < 25)
+            {
+                Console.WriteLine("Girilen Sayı: " + sayi +"Karesi: " + sonuc);
+                Console.WriteLine("Sonuc 25 de küçüktür");
+            }
+            else
+            {
+                Console.WriteLine("Girilen Sayı: " + sayi + "Karesi: " + sonuc);
+                Console.WriteLine("Sonuc 25 den büyüktür");
+            }
+
+        }
+
+
+        //static void Topla()
+        //{
+        //    Console.WriteLine(2+9);
+        //    Console.WriteLine("Toplama işlemi sonuçlandı.");
+        //}
+
+        //static void Toplama(int a, int b)
+        //{
+        //    Console.WriteLine(a + b);
+        //}
+
+        //static void IsimSoyisim(string isim, string soyisim)
+        //{
+        //    Console.WriteLine(isim +" "+ soyisim);
+        //}
+
+        //static decimal Toplama(decimal a, decimal b)
+        //{
+        //    return a / b;
+        //}
+
+        static int Kare(int a)
+        {
+            Console.WriteLine("Girilen sayının karesi alınıyor.");
+            return a * a;
+            Console.WriteLine("Metot bitmiştir.");
         }
     }
 }
