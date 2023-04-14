@@ -8,23 +8,22 @@ namespace _00_Denemeler
     {
         static void Main(string[] args)
         {
-            Product product1 = new Product() { Id = 4, Name = "Kitap" };
-            
-            ProductManager productManager = new ProductManager();
-            
-            productManager.Add(product1);
+            int result = Toplama(3, 5);
+            Console.WriteLine("Result: " + result);
+            //Toplama(3, 5);
+            Topla();
 
-            //foreach (var product in productManager.GetAll())
-            //{
-            //    Console.WriteLine(product.Id);
-            //}
+        }
 
-            Console.WriteLine("***************");
-            productManager.GetById(5);
+        static int Toplama(int a, int b)
+        {
+            int sonuc = a + b;
+            return sonuc;
+        }
 
-          
-            
-
+        static void Topla()
+        {
+            Console.WriteLine("Toplam: " + (2+3));
         }
     }
 }

@@ -16,10 +16,10 @@ namespace Metotlar
         // Metot tanımlama yapılırken ilk önce "Erişim Belirteci" dediğimiz (static,public,private vs.) başlıyoruz. Daha sonra dönüş tipimizi belirtiyoruz. (void, int,string vs.). Daha sonra da metodumuza isim veriyor, parantezlerimizi açıp kapayarak süslü parantezlerimiz ile tanımlamamızı bitiriyoruz.
 
 
-        //static void Topla()
-        //{
-        //    Console.WriteLine(2 + 3);
-        //}
+        static void Topla()
+        {
+            Console.WriteLine(2 + 3);
+        }
 
         #endregion
 
@@ -35,20 +35,20 @@ namespace Metotlar
 
         // Geriye değer döndürmeyen metotlar kendi scope larında yazılmış olan kod bloklarını çalıştırır ve scope içi yapılması gereken işler tamamlanınca geriye bir değer döndürmezler. Karateristik olarak parametre alabilir yada gerek yok ise parametre almadan işlerini yaparlar.
 
-        //static void Marka()
-        //{
-        //    Console.WriteLine("Roxis Teknoloji");
-        //}
+        static void Marka()
+        {
+            Console.WriteLine("Roxis Teknoloji");
+        }
 
-        //static void Topla(int a, int b)
-        //{
-        //    Console.WriteLine("Girilen sayıların toplamı: " + (a + b));
-        //}
+        static void Topla(int a, int b)
+        {
+            Console.WriteLine("Girilen sayıların toplamı: " + (a + b));
+        }
 
-        //static void Name(string name)
-        //{
-        //    Console.WriteLine("Adınız: " + name);
-        //}
+        static void Name(string name)
+        {
+            Console.WriteLine("Adınız: " + name);
+        }
 
         #endregion
 
@@ -58,44 +58,45 @@ namespace Metotlar
 
         //Geriye değer döndüren metotlarda void kelimesi kullanılmaz ve geriye dönecek olan değerin türü dikkate alınarak metot oluşturulur.
 
-        //static int ToplamaYap(int a, int b)
-        //{
-        //    int sonuc = a + b;
-        //    return sonuc;
+        static int ToplamaYap(int a, int b)
+        {
+            int sonuc = a + b;
+            return sonuc;
+        }
 
 
         // Return anahtar kelimesinin metot içinde 2 ana görevi vardır.
-        // 1- İşlem sonucunda oluşa değerleri geriye döndürür.
-        // 2- Metot u bitiren anahtar kelimedir.
+            // 1- İşlem sonucunda oluşa değerleri geriye döndürür.
+            // 2- Metot u bitiren anahtar kelimedir.
 
-        #endregion
+            #endregion
 
-        #region Örnek
+            #region Örnek
 
-        //static int KareAl(int a)
-        //{
-        //    return a * a;
-        //}
+            //static int KareAl(int a)
+            //{
+            //    return a * a;
+            //}
 
-        //Console.Write("Lütfen bir sayı giriniz: ");
-        //int sayi = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen bir sayı giriniz: ");
+            //int sayi = int.Parse(Console.ReadLine());
 
-        //int sonuc = KareAl(sayi);
+            //int sonuc = KareAl(sayi);
 
-        //    if (sonuc > 25)
-        //{
-        //    Console.WriteLine("Girilen sayı: " +sayi+ " " +"Karesi: " + sonuc);
-        //    Console.WriteLine("Karesi 25'den büyüktür.");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("Girilen sayı: " + sayi + " " + "Karesi: " + sonuc);
-        //    Console.WriteLine("Karesi 25'den küçüktür.");
-        //}
+            //    if (sonuc > 25)
+            //{
+            //    Console.WriteLine("Girilen sayı: " +sayi+ " " +"Karesi: " + sonuc);
+            //    Console.WriteLine("Karesi 25'den büyüktür.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Girilen sayı: " + sayi + " " + "Karesi: " + sonuc);
+            //    Console.WriteLine("Karesi 25'den küçüktür.");
+            //}
 
-        #endregion
+            #endregion
 
-        static void Main(string[] args)
+            static void Main(string[] args)
         {
             Console.Write("Lütfen bir sayı giriniz.");
             int sayi = int.Parse(Console.ReadLine());
