@@ -53,7 +53,7 @@ namespace If_Else
             }
             else
             {
-                Console.WriteLine("Girilen sayı yanlıştır");
+                Console.WriteLine("Girilen sayı yanlıştır.");
             }
 
             Console.ReadLine();

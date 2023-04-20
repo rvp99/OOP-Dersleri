@@ -10,7 +10,7 @@ namespace Switch_Case
     {
         static void Main(string[] args)
         {
-            int phone = 2;
+            int phone = 1;
 
             switch (phone)
             {

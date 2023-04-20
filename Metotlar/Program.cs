@@ -106,12 +106,12 @@ namespace Metotlar
             if (sonuc < 25)
             {
                 Console.WriteLine("Girilen Sayı: " + sayi +"Karesi: " + sonuc);
-                Console.WriteLine("Sonuc 25 de küçüktür");
+                Console.WriteLine("Sonuc 25 de küçüktür.");
             }
             else
             {
                 Console.WriteLine("Girilen Sayı: " + sayi + "Karesi: " + sonuc);
-                Console.WriteLine("Sonuc 25 den büyüktür");
+                Console.WriteLine("Sonuc 25 den büyüktür.");
             }
 
         }

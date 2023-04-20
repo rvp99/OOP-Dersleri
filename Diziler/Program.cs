@@ -71,7 +71,7 @@ namespace Diziler
                 }
                 else if (ay=="Nisan" || ay=="Mayıs" || ay=="Haziran")
                 {
-                    Console.WriteLine("Mevsim İlkbahar");
+                    Console.WriteLine("Mevsim İlkbahar.");
                 }
             }
 

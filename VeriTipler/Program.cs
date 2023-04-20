@@ -23,7 +23,7 @@ namespace VeriTipler
             decimal y = 14.7M;          // Ondalıklı sayıları decimal tanımlarsak sonuna 'M' getiriyoruz.
             double z = 123.5;
             string name = "Serkan";     // Metin tipi değişkenler çift tırnak içine yazılırlar.
-            char a = 'a';
+            char a = 'a';               // Char tipi değişkenler tek tırnak içine yazılırlar.
             bool sonuc = true;
         }
     }

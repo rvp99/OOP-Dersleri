@@ -31,7 +31,7 @@ namespace Donguler
 
             string isim = "Serkan";
             string kursiyer1 = "Ali";
-            string kursiyer2 = "Mehmet";
+            string kursiyer2 = "Kemal";
 
             string[] gunler = {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar" };
 
